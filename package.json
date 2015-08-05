@@ -1,7 +1,7 @@
 {
   "version": "0.41.0",
-  "name": "language-coffee-script",
-  "description": "CoffeeScript language support in Atom",
+  "name": "language-coffeescript-html",
+  "description": "CoffeeScript language support with html in Atom",
   "license": "MIT",
   "engines": {
     "atom": "*",
