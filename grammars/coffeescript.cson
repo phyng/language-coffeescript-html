@@ -35,6 +35,25 @@
     'name': 'meta.class.instance.constructor'
   }
   {
+    'begin': '\s*("""|\'\'\')'
+    'beginCaptures':
+      '1':
+        'name': 'string.quoted.heredoc.coffee punctuation.definition.string.begin.coffee'
+    'end': '(\\1)'
+    'endCaptures':
+      '0':
+        'name': 'string.quoted.heredoc.coffee punctuation.definition.string.end.coffee'
+    'contentName': 'text.html'
+    'patterns': [
+      {
+        'include': 'text.html.basic'
+      }
+      {
+        'include': 'text.html.basic.angularjs'
+      }
+    ]
+  }
+  {
     'begin': '\'\'\''
     'beginCaptures':
       '0':
