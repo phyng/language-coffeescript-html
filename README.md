@@ -1,4 +1,4 @@
-# CoffeeScript language support with html in Atom
+# CoffeeScript support with html highlight
 
 Features: highlight html in CoffeeScript
 
